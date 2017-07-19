@@ -29,13 +29,13 @@ let greeting = "Hello, how are you? " + givenName;
 let high = 50;
 let low  = 10;
 let math = high - low;
-// A:40
+// A: subtract 10 fron 50
 
 
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A:45
+// A: subtract 5 from 50
 
 
 // 7.
@@ -50,8 +50,8 @@ let today = 2017;
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
-var yourName = Becky;
-var instructorName = Eric
+var yourName = "Becky";
+var instructorName = "Eric";
 
 
 // 9.
@@ -66,9 +66,9 @@ let statement = yourName + " is taking a class at The Iron Yard, my instructor's
 // 10.
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
-let myNumber;
-let myString;
-let myBoolean;
+let myNumber = 41;
+let myString = 'age';
+let myBoolean = true;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined;
 // A:var myNumber = 41;
@@ -81,47 +81,56 @@ let myUndefined;
 
 // 11.
 let x = (false == 0);
+console.log(x);
 // A.
+true
 
 
 // 12.
 let y = (false == "");
 // A.
+true
 
 
 // 13.
 let z = (0 == "");
-// A.
+true// A.
 
 
 // 14.
 let a = (null == null);
 // A.
+true
 
 
 // 25.
 let b = (undefined == undefined);
 // A.
+true
 
 
 // 16.
 let c = (undefined == null);
 // A.
+false
 
 
 // 17.
 let d = (null == false);
 // A.
+false
 
 
 // 18.
 let e = (NaN == null);
 // A.
+false
 
 
 // 19.
 let f = (NaN == NaN);
 // A.
+false
 
 
 // 20.
