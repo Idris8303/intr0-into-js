@@ -29,13 +29,13 @@ let greeting = "Hello, how are you? " + givenName;
 let high = 50;
 let low  = 10;
 let math = high - low;
-// A: subtract 10 fron 50
+// A: 40
 
 
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A: subtract 5 from 50
+// A: 45
 
 
 // 7.
@@ -49,9 +49,9 @@ let today = 2017;
 
 // 8.
 // Adjust this code. Store some information in the following variables.
-// A:
-var yourName = "Becky";
-var instructorName = "Eric";
+// A:var yourName = "Becky";
+// var instructorName = "Eric";
+
 
 
 // 9.
@@ -82,55 +82,55 @@ let myUndefined;
 // 11.
 let x = (false == 0);
 console.log(x);
-// A.
-true
+// A.true
+
 
 
 // 12.
 let y = (false == "");
-// A.
-true
+// A.true
+
 
 
 // 13.
 let z = (0 == "");
-true// A.
+// A.true
 
 
 // 14.
 let a = (null == null);
-// A.
-true
+// A.true
+
 
 
 // 25.
 let b = (undefined == undefined);
-// A.
-true
+// A.true
+
 
 
 // 16.
 let c = (undefined == null);
-// A.
-false
+// A.false
+
 
 
 // 17.
 let d = (null == false);
-// A.
-false
+// A.false
+
 
 
 // 18.
 let e = (NaN == null);
-// A.
-false
+// A.false
+
 
 
 // 19.
 let f = (NaN == NaN);
-// A.
-false
+// A.false
+
 
 
 // 20.
