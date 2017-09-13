@@ -34,7 +34,7 @@ let math = high - low;
 
 // 6.
 // What is `math` set to?
-math = high - "5";
+math = high - 5;
 // A: 45
 
 
@@ -72,9 +72,9 @@ let myBoolean = true;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined;
 // A:var myNumber = 41;
-    var myString ='age';
-    var myBoolean = 'True';
-    var myUndefined = 'undefined';
+  // var myString ='age';
+  // var myBoolean = true;
+  // var myUndefined = 'undefined';
 
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
